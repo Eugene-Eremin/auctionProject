@@ -61,7 +61,7 @@ class suggestionsController {
             })
 
             suggestions.forEach(el => {
-                console.log(el.)
+                // console.log(el.)
             })
 
             console.log(suggestions_array)
