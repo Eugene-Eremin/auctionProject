@@ -21,13 +21,6 @@
                     <input type="password" placeholder="Enter Password" id="passwordForm" v-model="password"
                      required>
                 </div>
-                <div class="form-item-other">
-                    <div class="checkbox">
-                        <input type="checkbox" id="rememberMeCheckbox" checked>
-                        <label for="rememberMeCheckbox">Запомнить меня</label>
-                    </div>
-                    <a href="#">Я забыл пароль!</a>
-                </div>
                 <button type="submit" @click="loginFn">Войти</button>
             </form>
         </div>

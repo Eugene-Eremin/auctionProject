@@ -1,10 +1,8 @@
 <template>
-  <div class="app-container1">
   <form @submit.prevent>
     <my-input v-model="productName" placeholder="Наим. продукта"></my-input>
     <my-button @click="createProductName">Создать</my-button>
   </form>
-  </div>
 </template>
 
 <script>

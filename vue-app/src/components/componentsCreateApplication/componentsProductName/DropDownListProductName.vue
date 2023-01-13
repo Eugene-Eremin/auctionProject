@@ -1,10 +1,8 @@
 <template>
-  <div class="app-container1">
   <select v-model="selected" @click="selectedFn" class="box">
     <option v-for="productName in arrayProductNames" v-bind:value="productName.id">{{ productName.name }}</option>
   </select>
-</div>
-</template>
+  </template>
 
 <script>
 import axios from "axios";

@@ -1,21 +1,23 @@
 <template>
-  <div class="main">
+  <div class="container">
+  <div class="app-container">
     <h2 class="indent">Предложения</h2>
     <div class="section">
       <div class="content">
-        <h3 class="indent">Все ваши предложения</h3>
+        <h4 class="indent">Ваши предложения</h4>
         <search-form-for-suggestions class="indent"></search-form-for-suggestions>
         <div class="layer">
           <SuggestionsListUser :arraySuggestions="arraySuggestions"></SuggestionsListUser>
         </div>
       </div>
       <div class="content">
-        <h3 class="indent">Все ваши принятые предложения</h3>
+        <h4 class="indent">Ваши принятые предложения</h4>
         <SearchFormForClosedSuggestions class="indent"></SearchFormForClosedSuggestions>
         <div class="layer">
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -179,14 +181,14 @@ button:hover {
   width: 60%;
 }
 
-.box {
-  width: 230px;
-  height: 30px;
-  border: 1px solid #999;
-  font-size: 18px;
-  color: #4CAF50;
-  background-color: #eee;
-  border-radius: 5px;
-  box-shadow: 4px 4px #ccc;
+.container {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, #333399, #ff00ccb6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 </style>
