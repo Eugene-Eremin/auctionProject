@@ -130,14 +130,6 @@ button {
 button:hover {
   opacity: 0.8;
 }
-
-.container {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 .layer {
   width: 100%;
   height: 510px;
