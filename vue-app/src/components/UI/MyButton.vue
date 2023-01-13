@@ -18,5 +18,6 @@ export default {
   color: darkgreen;
   border: 2px solid darkgreen;
   border-left: 0px;
+  border-radius: 7px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-<div class="app-container">
+<div class="app-container1">
   <h2>Заявки</h2>
     <h3>Создать заявку</h3>
     <div class="product_name">

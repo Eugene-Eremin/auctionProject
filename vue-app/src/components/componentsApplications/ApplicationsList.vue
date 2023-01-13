@@ -1,5 +1,5 @@
 <template>
-  <div class="app-container">
+  <div class="app-container1">
   <div class="application">
     <div class="item">
       <application-item :key="application.id" :application="application" v-for="application in arrayApplications"/>

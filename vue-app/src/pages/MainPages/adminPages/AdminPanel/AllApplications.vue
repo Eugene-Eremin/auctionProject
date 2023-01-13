@@ -1,15 +1,13 @@
 <template>
     <Navbar></Navbar>
     <div class="container">
-        <div class="app-container1">
+        <div class="app-container">
             <create-application @updateApplications="updateApplications"></create-application>
-            <div class="content">
                 <h3 class="indent">Все заявки</h3>
                 <search-form-for-applic class="indent"></search-form-for-applic>
                 <div class="layer">
                     <applications-list :arrayApplications="arrayApplications"></applications-list>
                     <div v-intersection="loadMoreApplications" class="observer"></div>
-                </div>
             </div>
         </div>
     </div>
