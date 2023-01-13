@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 .btn {
-  width: 20%;
+  width: 30%;
   padding: 10px 15px;
   background: none;
   color: darkgreen;
