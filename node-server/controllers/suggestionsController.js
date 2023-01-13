@@ -51,28 +51,7 @@ class suggestionsController {
     }
 
     async all_suggestions_accepted_for_user(req, res) {
-        try {
-            const { userId } = req.params
-            const suggestions_accepted = await Suggestions_accepted.findAll();
-
-            suggestions_accepted.forEach(async el => {
-                console.log(el.suggestionId)
-                const suggestions = await Suggestions.findOne({where: el.suggestionId});
-            })
-
-            suggestions.forEach(el => {
-                // console.log(el.)
-            })
-
-            console.log(suggestions_array)
-
-            console.log(suggestions_accepted_array)
-            console.log('ABOBAARRAYOUT', suggestions_accepted_array)
-
-            return res.json(suggestions_accepted_array)
-        } catch (e) {
-            next(ApiError.badRequest(e.message));
-        }
+        
     }
 
     async get_selected_suggestions(req, res) {
