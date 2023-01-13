@@ -54,6 +54,7 @@ input[type=text], input[type=password] {
   margin: 8px 0;
   display: inline-block;
   box-sizing: border-box;
+  border-radius: 7px;
 }
 
 
@@ -65,6 +66,7 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  border-radius: 7px;
 }
 
 button:hover {

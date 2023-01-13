@@ -277,8 +277,8 @@ h1, .hs {
   height: 30%;
   padding: 10px 15px;
   background: none;
-  color: darkgoldenrod;
-  border: 2px solid darkgoldenrod;
+  color: black;
+  border: 2px solid black;
 }
 
 .line {

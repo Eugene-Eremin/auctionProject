@@ -155,7 +155,9 @@ export default {
 	z-index: 10001;
 	display: none;
 }
-
+.main {
+	color: var(--text-color);
+}
 
 @media (max-width: 1280px){
 	header{
